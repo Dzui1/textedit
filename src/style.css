@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    min-width: 0;
+    text-box: trim-both cap alphabetic;
+}
+
+:root {
+    color-scheme: light dark;
+    interpolate-size: allow-keywords;
+}
+
+html {
+    text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    overflow-wrap: break-word;
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+input,
+textarea,
+select {
+    field-sizing: content;
+}
+
+#textbox {
+    width: 100dvw;
+    height: 100dvh;
+    background: #363636;
+    border: none !important;
+    tab-size: 4;
+}
