@@ -36,6 +36,7 @@ input,
 textarea,
 select {
     field-sizing: content;
+    outline: none !important;
 }
 
 #textbox {
@@ -44,4 +45,5 @@ select {
     background: #363636;
     border: none !important;
     tab-size: 4;
+    outline: none !important;
 }
