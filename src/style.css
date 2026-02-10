@@ -18,7 +18,7 @@
 
 html {
     text-size-adjust: 100%;
-    background-color: #363636;
+    background-color: #282828;
 }
 
 h1,
@@ -43,16 +43,22 @@ select {
 #textbox {
     width: 70dvw;
     height: 100dvh;
-    background: #363636;
     border: none !important;
     tab-size: 4;
     letter-spacing: 0.015cm;
     flex-grow: 1;
     outline: none !important;
     overflow: hidden;
-    margin-left: 15%;
+    margin-left: 25%;
     margin-top: 2%;
     min-height: 100dvh;
-    font-size: 17px;
-    font-family: "Helvetica Neue", sans-serif;
+    background: transparent;
+
+    color: #ebdbb2;
+    font-size: 14pt;
+    font-family: Verdana;
+    line-height: 1.6em;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
 }
