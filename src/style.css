@@ -28,7 +28,9 @@ h4 {
     overflow-wrap: break-word;
     text-wrap: balance;
 }
-
+body {
+    overflow-x: hidden;
+}
 p {
     text-wrap: pretty;
 }
@@ -41,23 +43,25 @@ select {
 }
 
 #textbox {
-    width: 70dvw;
-    height: 100dvh;
+    width: 60dvw;
+    min-height: 100dvh;
+    height: auto;
     border: none !important;
     tab-size: 4;
     letter-spacing: 0.015cm;
     flex-grow: 1;
     outline: none !important;
     overflow: hidden;
-    margin-left: 25%;
+    margin-left: 20dvw;
+    margin-right: 20dvw;
     margin-top: 2%;
-    min-height: 100dvh;
     background: transparent;
 
     color: #ebdbb2;
     font-size: 14pt;
     font-family: Verdana;
     line-height: 1.6em;
+    text-align: justify;
     outline: none;
     resize: none;
     box-sizing: border-box;
