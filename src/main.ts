@@ -21,6 +21,6 @@ textbox.addEventListener("keydown", (event) => {
 
 textbox.addEventListener("input", () => {
   localStorage.setItem("key", textbox.value);
-  textbox.style.height = "auto";
-  textbox.style.height = textbox.scrollHeight + "px";
+  // textbox.style.height = "auto";
+  // textbox.style.height = textbox.scrollHeight + "px";
 });

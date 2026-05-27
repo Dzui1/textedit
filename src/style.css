@@ -31,6 +31,18 @@ h4 {
 body {
     overflow-x: hidden;
 }
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
 p {
     text-wrap: pretty;
 }
@@ -43,18 +55,21 @@ select {
 }
 
 #textbox {
-    width: 60dvw;
-    min-height: 100dvh;
+    width: 100%;
+    min-height: 95vh;
     height: auto;
     border: none !important;
     tab-size: 4;
     letter-spacing: 0.015cm;
     flex-grow: 1;
     outline: none !important;
-    overflow: hidden;
-    margin-left: 20dvw;
-    margin-right: 20dvw;
+    /*overflow: hidden;*/
+    /*margin-left: 20dvw;
+    margin-right: 20dvw;*/
+    overflow-x: hidden;
     margin-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
     background: transparent;
 
     color: #ebdbb2;
