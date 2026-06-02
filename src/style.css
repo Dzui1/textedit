@@ -54,9 +54,16 @@ select {
     outline: none !important;
 }
 
+#app {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 #textbox {
     width: 100%;
     min-height: 95vh;
+    min-block-size: 1lh;
     height: auto;
     border: none !important;
     tab-size: 4;

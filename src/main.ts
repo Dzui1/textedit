@@ -1,7 +1,6 @@
 import "./style.css";
 
 const textbox = document.getElementById("textbox") as HTMLTextAreaElement;
-
 textbox.value = localStorage.getItem("key") ?? "";
 
 textbox.addEventListener("keydown", (event) => {
